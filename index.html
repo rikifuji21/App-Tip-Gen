@@ -4,15 +4,38 @@
 
     <meta charset="UTF-8"/>
 
+    <title>Tip Generator</title> 
+    <link rel='icon' type='image/png' href='images/favicon.png'>
     <link href="styles.css" type="text/css" rel="stylesheet">
-
     <script src="tip-gen.js"> </script>
 
   </head>
 
   <body class='background'>
 
-  <div class='header'><div class='headerinfo'><b>U.S. Tip Generator</b></div></div>
+  <div class='header'><div class='headerinfo'><b>U.S. Tip Calculator</b></div></div>
+
+  <div class='generator'>
+
+<form oninput="x.value=a.value*b.value">
+<input type="number" name="a" placeholder='Enter Pre-Tax Bill Total' class='input'></input>
+X<input type="number" name="b" class='input' placeholder='Enter Tip Percentage'></input>
+=$<input id="x" for="a b" readonly class='input' placeholder='Tip'></input> Tip
+</form>
+<form oninput='y.value=x.value+z.value'>
+<input type='number' name='x' placeholder='Enter Tip' value='x'class='input'></input>
++<input type='number' name='z' placeholder='Enter Post-Tax Bill Total' class='input'></input>
+=$<input id='y' for='x z' readonly class='input' placeholder='Bill Total After Tip
+ and Tax'></input>
+</form>
+  		</div>
+	</div>
+
+  </div>
+
+
+
+<!--Note: Use href="#" for test links. In a real web site this would be URLs.-->
 
   </body>
 

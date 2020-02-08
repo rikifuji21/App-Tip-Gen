@@ -1,10 +1,20 @@
+/*Containers*/
+
+.background
+{
+  background-color: #fafafa;
+}
+
 .header
 {
   height:100px; 
-  width:1435px;
+  width:500px;
   margin-top:-8px;
-  margin-left:-3px;
-  background-color:rgb(156, 156, 156);
+  margin-left:27%;
+  border-radius: 15px;
+  border-color:black;
+  border-width: 30px;
+  background-color: #5c5c5c;
 }
 
 .headerinfo
@@ -14,10 +24,26 @@
   text-align:center;
   font-size:30pt;
   font-family:Arial;
-  margin-left:42%;
+  margin-left:27%;
+  color: white;
 }
 
-.background
+.input
 {
-  background-color:rgb(38, 41, 39);
+  margin-top:16%;
+  margin-left:10px;
+  height:30px;
+  width:160px;
+  border-radius:7px;
+}
+
+.generator
+{
+  height:450px; 
+  width:650px;
+  margin-top:13%;
+  margin-left:22%;
+  border-radius:9px;
+  background-color: #969696;
+  color:white;
 }
