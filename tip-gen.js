@@ -1,5 +1,6 @@
 // 15 - 20% tip, average is 18-19%
 
+<<<<<<< HEAD
 
 
 /*function calctip(){
@@ -23,3 +24,10 @@ function realnumy(){
     document.getElementById('y').innerHTML = y;
     var m = setTimeout(realnumy,500);
 }
+=======
+function calctip(us){
+  us * ;
+}
+
+//location.replace('url');
+>>>>>>> ce767c8aa12a81a9a44e027714476bf4da5e7fed
